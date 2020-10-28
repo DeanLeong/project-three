@@ -58,10 +58,6 @@ In light of this:
 
 ## MVP Requirements
 
-**In order to pass, ALL MVP requirements must be met.**
-
-This project, like the previous two, will be a portfolio piece. For a portfolio piece to be complete, it **must** demonstrate an understanding of- and an ability to use- the tools and techniques introduced in this unit; it should be functional with sufficient complexity, meeting the following requirements:
-
 ### Planning <!-- omit in toc -->
 
 - Have a thoroughly documented `Team Expectations` Google document.
