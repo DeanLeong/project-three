@@ -142,9 +142,7 @@ Pick one person on the team to be the "Git Czar." This person will be responsibl
 
 ### STEP 2.1. Git, For The Czar <!-- omit in toc -->
 
-This will be very similar to what we did in our morning [group-git-lesson](https://git.generalassemb.ly/sei-nyc-constellations/group-git-react) exercise. The only difference is the addition of a `development` branch for additional safety.
-
-1. Have the Team Lead make a new repo in their **personal Github account.** 
+1. Have the Git Czar make a new repo in their **personal Github account.** 
 1. Add a `development` branch on the remote repository: 
     ![](https://git.generalassemb.ly/sei-nyc-constellations/ux-sei-collab-p3/blob/master/assets/add-branch.png)
 1. Now that you have a remote `development` branch let's go ahead and set it as the **default** branch of our repository. 
@@ -153,7 +151,7 @@ This will be very similar to what we did in our morning [group-git-lesson](https
 1. Update the `development` to be the default branch.
 
     ![](https://git.generalassemb.ly/sei-nyc-constellations/ux-sei-collab-p3/blob/master/assets/dev-default.png)
-1. Create branch protection rules like we did in our morning exercise: 
+1. Create branch protection rules: 
     - Click on settings and then branches
     - Add rule to dev branch
     - Check Require pull request reviews before merging
@@ -175,7 +173,7 @@ This will be very similar to what we did in our morning [group-git-lesson](https
 At this point, all members should be able to make their own branches. A few things to keep in mind:
   - When you go to push your code to the remote, remember to use the command `git push origin your-branch-name`.
   - When you are ready to make a pull request, double check that your head is set correctly. You should be making the PR on the `development` branch in your team lead's repo.
-  - The team lead should now handle pull requests as outlined in [Group-Git-Lesson](https://git.generalassemb.ly/sei-nyc-constellations/group-git-react), but make sure they are all going to `development`, **NOT** `master`. 
+  - The team lead should now handle pull requests, but make sure they are all going to `development`, **NOT** `master`. 
   
 Master should be reserved for fully tested, completed code that is ready for deployment. Heroku and Netlify both read from the master branch for deployment, so ensure that this branch is untouched apart from team-reviewed merges via a Pull Request from the development branch on GitHub.
 
@@ -203,25 +201,19 @@ Before you start coding away, your team must meet with instructors to help scope
 1.  **Whimsical Diagram**: A link to the whimsical diagram to convey the data flow between your front-end and back-end, with component hierarchy included (remember to enable public link access)
 2. **Team Expectations**: A link to your team's Google document that establishes timelines, communication preferences, code conventions, git practices, etc.
 3. **Overview:** 4 to 5 non-technical sentences, summarizing the features, functions, and goals.
-4. **MVP:** A link to your Trello or [GitHub Projects](https://github.com/features/project-management) board (See Step 5)
+4. **MVP:** A link to your [GitHub Projects](https://github.com/features/project-management) board (See Step 5)
 5. **Post-MVP:** Your goals for post-MVP based on the given prototype
 
 <br>
 
 ## STEP 5. Project Management
 
-- Create either a Trello board or a [GitHub Projects](https://github.com/features/project-management) board on your repo to prioritize and assign tasks. Common categories include `to do`, `in progress`, `done`, and/or `new`, `now`, `next`, and `later`.
+- Create a [GitHub Projects](https://github.com/features/project-management) board on your repo to prioritize and assign tasks. Common categories include `to do`, `in progress`, `done`, and/or `new`, `now`, `next`, and `later`.
   - Each group member should choose or be assigned tasks.
   - Break features into small, focused tasks. If a task can be made more granular, create a new task card on the project board describing the sub-tasks.
   - As work is done on a particular task, or if a feature is complete, report to your Git Czar to merge your branch and begin work on a new task.
-    - Move the task card from `To do` to `In progress` to `Ready` when the feature branch can be merged into master.
-    - A hidden challenge, you say? Pick a name for your team. Write it down in a fun typography and draw an astronaut doing something (SFW, please) next to your team name. This is your team's logo. Upload this to your project file before you pitch.
-
-<br>
-
-## STEP 6. Version Control
-
-Confirm everyone on your team is running the same version of `node` and `npm` (`npm -v`, `node -v`). Once you're on the same versions, avoid updating throughout the course of the group project.
+   - Move the task card from `To do` to `In progress` to `Ready` when the feature branch can be merged into master.
+   - A hidden challenge, you say? Pick a name for your team. Write it down in a fun typography and draw an astronaut doing something (SFW, please) next to your team name. This is your team's logo. Upload this to your project file before you pitch.
 
 <br>
 
