@@ -32,11 +32,9 @@ Nearly three quarters of the way done with your Software Engineering Immersive! 
 
 # OVERVIEW
 
-> **Deployed Project Due:** 7/23/20 at 2:00 PM
-> 
-> **Presentation Preparation:** 7/24/20 at 11:00 AM
+> **Presentation Preparation:** 11/10/20 at 1:00 PM
 >
-> **Final Presentations:** 7/24/20 at 1:00 PM
+> **Final Presentations:** 11/10/20 at 2:00 PM
 
 For your third project, you’ve already worked in small groups to accomplish various labs and exercises, but this time, we’re going to challenge you to partner with a group of your peers to build a full stack Mongo/Express/React/Node app, commonly referred to as the MERN Stack. 
 
