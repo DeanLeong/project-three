@@ -144,13 +144,13 @@ Pick one person on the team to be the "Git Czar." This person will be responsibl
 
 1. Have the Git Czar make a new repo in their **personal Github account.** 
 1. Add a `development` branch on the remote repository: 
-    ![](https://git.generalassemb.ly/sei-nyc-phoenix/project-three/blob/master/assets/add-branch.png)
+    ![](/add-branch.png)
 1. Now that you have a remote `development` branch let's go ahead and set it as the **default** branch of our repository. 
 1. Your default branch is named `master`. If you have admin rights over a repository on GitHub, you can change the default branch on the repository. [Setting the default branch](https://help.github.com/en/github/administering-a-repository/setting-the-default-branch)
 1. In Settings, in the left menu, click Branches.
 1. Update the `development` to be the default branch.
 
-    ![](https://git.generalassemb.ly/sei-nyc-phoenix/project-three/blob/master/assets/dev-default.png)
+    ![](/dev-default.png)
 1. Create branch protection rules: 
     - Click on settings and then branches
     - Add rule to dev branch
@@ -158,7 +158,7 @@ Pick one person on the team to be the "Git Czar." This person will be responsibl
     - Check Require view from Code Owners
     - Save Changes
 
-    ![](https://git.generalassemb.ly/sei-nyc-phoenix/project-three/blob/master/assets/add-rules.png)
+    ![](/add-rules.png)
 
     >This will make it so the team lead has to review all changes and no one can accidentally push directly to master.
 
@@ -166,7 +166,7 @@ Pick one person on the team to be the "Git Czar." This person will be responsibl
 1. In GitHub, click on the **Settings** tab, and then navigate to **Collaborators & Teams**.
 1. Add your teammates as collaborators. You will need their **personal** GitHub usernames.
 
-    ![](https://git.generalassemb.ly/sei-nyc-phoenix/project-three/blob/master/assets/add-collaborator1.png)
+    ![](/add-collaborator1.png)
 1. Your team members should have received an invitation to collaborate via email.
 1. All other members should **clone** the new repo. **Do not fork!**
 
