@@ -150,7 +150,7 @@ Pick one person on the team to be the "Git Czar." This person will be responsibl
 1. In Settings, in the left menu, click Branches.
 1. Update the `development` to be the default branch.
 
-    ![](https://git.generalassemb.ly/sei-nyc-constellations/ux-sei-collab-p3/blob/master/assets/dev-default.png)
+    ![](https://git.generalassemb.ly/sei-nyc-phoenix/project-three/blob/master/assets/dev-default.png)
 1. Create branch protection rules: 
     - Click on settings and then branches
     - Add rule to dev branch
